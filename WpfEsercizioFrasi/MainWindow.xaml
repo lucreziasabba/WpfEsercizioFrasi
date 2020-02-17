@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfEsercizioFrasi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfEsercizioFrasi"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox Name="txtInsert" HorizontalAlignment="Left" Margin="94,121,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="149" Height="53"/>
+        <Button Name="btnInsert" Content="INSERISCI" HorizontalAlignment="Left" Margin="378,87,0,0" VerticalAlignment="Top" Height="40" Width="100" Click="btnInsert_Click"/>
+        <Button Name="btnOrdina" Content="ORDINA" HorizontalAlignment="Left" Margin="621,87,0,0" VerticalAlignment="Top" Height="40" Width="100" Click="btnOrdina_Click"/>
+        <Button Name="btnStampa" Content="STAMPA" HorizontalAlignment="Left" Margin="378,0,0,0" VerticalAlignment="Center" Height="40" Width="100" IsEnabled="False" Click="btnStampa_Click"/>
+        <Button Name="btnPubblica" Content="PUBBLICA" HorizontalAlignment="Left" Margin="612,0,0,0" VerticalAlignment="Center" Height="40" Width="100" IsEnabled="False" Click="btnPubblica_Click"/>
+        <Label Name="lblFinito" Content="" HorizontalAlignment="Left" Margin="86,298,0,0" VerticalAlignment="Top" Height="77" Width="232"/>
+
+    </Grid>
+</Window>
